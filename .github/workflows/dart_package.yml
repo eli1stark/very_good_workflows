@@ -69,7 +69,7 @@ jobs:
 
       - name: 🏗️ Generate files
         if: ${{ inputs.build_runner == true }}
-        run: flutter pub run build_runner build
+        run: dart run build_runner build
 
       - name: 🕵️ Analyze
         run: dart analyze --fatal-infos --fatal-warnings ${{inputs.analyze_directories}}
