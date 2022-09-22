@@ -101,6 +101,12 @@ The Dart package workflow consists of the following steps:
 
 **Default** `"vm"`
 
+#### `build_runner`
+
+**Optional** Whether to run build_runner.
+
+**Default** `false`
+
 ### Example Usage
 
 ```yaml
@@ -187,6 +193,12 @@ The Flutter package workflow consists of the following steps:
 **Optional** An optional operating system on which to run the workflow.
 
 **Default** `"ubuntu-latest"`
+
+#### `build_runner`
+
+**Optional** Whether to run build_runner.
+
+**Default** `false`
 
 ### Example Usage
 
